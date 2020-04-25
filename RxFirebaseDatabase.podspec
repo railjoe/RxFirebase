@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.static_framework = true
     s.dependency 'RxSwift', '~> 4'
     s.dependency 'RxCocoa', '~> 4'
-    s.dependency 'FirebaseDatabase', '~> 6'
+    s.dependency 'Firebase/Database', '~> 6'
 
     s.source_files = 'Sources/Database/**/*'
 end
