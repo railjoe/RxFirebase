@@ -41,10 +41,10 @@ Pod::Spec.new do |s|
         remote.dependency 'RxFirebaseRemoteConfig', '~> 5.0.0'
         remote.source_files = 'Sources/Core/RemoteConfig.swift'
     end
-    s.subspec 'Database' do |database|
-        database.dependency 'RxFirebaseDatabase', '~> 5.0.0'
-        database.source_files = 'Sources/Core/Database.swift'
-    end
+    #s.subspec 'Database' do |database|
+    #    database.dependency 'RxFirebaseDatabase', '~> 5.0.0'
+    #    database.source_files = 'Sources/Core/Database.swift'
+    #end
     s.subspec 'Storage' do |storage|
         storage.dependency 'RxFirebaseStorage', '~> 5.0.0'
         storage.source_files = 'Sources/Core/Storage.swift'
